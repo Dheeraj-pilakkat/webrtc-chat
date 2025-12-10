@@ -9,8 +9,8 @@ export const authOptions: NextAuthOptions = {
         }),
     ],
     events: {
-        signIn: async (message) => {
-            console.log("User signed in:", message);
+        signIn: async ({user , account, profile, isNewUser}) => {
+            console.log("User signed in:", user, account, profile, isNewUser);
         },
         signOut: async (message) => {
             console.log("User signed out:", message);
