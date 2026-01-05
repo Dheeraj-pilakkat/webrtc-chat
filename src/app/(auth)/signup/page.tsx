@@ -191,10 +191,10 @@ export default function Signup() {
             provider="google"
             providerId="Google"
             callbackUrl="/"
-            className="border border-red-500"
+            className="border border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all hover:shadow-lg shadow-black"
           />
           <button
-            className="px-10 cursor-pointer py-2 gap-3 border border-primary rounded"
+            className="px-10 cursor-pointer py-2 gap-3 border border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all hover:shadow-lg shadow-black rounded"
             onClick={() => signOut()}
           >
             <Image
@@ -211,7 +211,7 @@ export default function Signup() {
             provider="github"
             providerId="GitHub"
             callbackUrl="/"
-            className="border border-primary"
+            className="border border-primary hover:bg-primary hover:text-white hover:scale-125 transition-all hover:shadow-lg shadow-black"
           />
         </div>
       </div>
