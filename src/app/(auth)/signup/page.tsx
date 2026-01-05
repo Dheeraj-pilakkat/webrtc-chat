@@ -1,5 +1,5 @@
 "use client";
-import img from "../../../../public/signup.png";
+import img from "public/signup.png";
 import Image from "next/image";
 import INPUT from "@/app/components/ui/input";
 import { useState } from "react";
